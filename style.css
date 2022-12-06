@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(240, 233, 233);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputBox {
+  background-color: rgb(230, 231, 225);
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+.inputBox > * {
+  margin-top: 5px;
+}
+.tableBox {
+  background-color: rgb(226, 228, 218);
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+.table {
+  width: 100%;
+}
+.table > p {
+  width: 50%;
+  background-color: rgb(225, 231, 231);
+  border-bottom: 0.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3px auto;
+}
